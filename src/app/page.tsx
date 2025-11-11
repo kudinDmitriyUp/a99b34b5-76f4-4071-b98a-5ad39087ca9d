@@ -54,7 +54,7 @@ export default function Home() {
       <div id="hero" data-section="hero">
         <HeroBillboardCorners
           title="Schwarz-Gelbe Leidenschaft Vereint"
-          description="Join our dedicated football team inspired by the legendary spirit of Borussia Dortmund. Train with passion, play with pride, compete in black and yellow."
+          description="Join our dedicated football team inspired by the legendary spirit of Borussia Dortmund. Train with passion, play with pride, compete in black and white."
           tag="BVB United"
           tagIcon={Trophy}
           buttons={[
@@ -90,7 +90,7 @@ export default function Home() {
 
       <div id="about" data-section="about">
         <TextAbout
-          title="We build champions through dedication, teamwork, and relentless pursuit of excellence. Our football family creates lasting bonds both on and off the pitch, living the Schwarz-Gelb spirit."
+          title="We build champions through dedication, teamwork, and relentless pursuit of excellence. Our football family creates lasting bonds both on and off the pitch, living the Schwarz-Weiss spirit."
           buttons={[
             {
               text: "Meet Our Coach",
@@ -189,7 +189,7 @@ export default function Home() {
       <div id="team" data-section="team">
         <TeamCardTwo
           title="Meet Our Team"
-          description="Get to know the dedicated players and coaching staff behind our success, united in black and yellow"
+          description="Get to know the dedicated players and coaching staff behind our success, united in black and white"
           tag="Team"
           tagIcon={Users}
           textboxLayout="default"
@@ -217,7 +217,7 @@ export default function Home() {
               id: "2",
               name: "David Rodriguez",
               role: "Defender",
-              description: "Solid defensive player with strong aerial ability and leadership qualities. A wall in black and yellow, joined the team 4 years ago.",
+              description: "Solid defensive player with strong aerial ability and leadership qualities. A wall in black and white, joined the team 4 years ago.",
               imageSrc: "https://pixabay.com/get/g9b166763a10e0d020aa447236284adb2b4049cb8b81ffed2c22ef3402ce790aee28241e17e949df8ae689e6581a5975c593d10506260f6847d4185050c766b89_1280.jpg",
               socialLinks: [
                 {
@@ -298,7 +298,7 @@ export default function Home() {
               id: "4",
               name: "Robert Chen",
               role: "Current Player",
-              testimonial: "Joining BVB United was the best decision I made. The training is intense but rewarding, and the team chemistry in black and yellow is incredible both on and off the field.",
+              testimonial: "Joining BVB United was the best decision I made. The training is intense but rewarding, and the team chemistry in black and white is incredible both on and off the field.",
               imageSrc: "https://pixabay.com/get/gd6bce50f42b7d5518a7a6b9c55a2865bc733364c4a591cfe77b983b2733fe7b3bf50f8ea8d3abcd99d71dbc633854f58c9b600ed957d282f9806fc935938fe13_1280.jpg"
             }
           ]}
@@ -308,7 +308,7 @@ export default function Home() {
       <div id="contact" data-section="contact">
         <ContactSplitForm
           title="Join Our Football Family"
-          description="Ready to take your game to the next level with BVB United? Get in touch with us to learn about tryouts, training sessions, and how to become part of our black and yellow family."
+          description="Ready to take your game to the next level with BVB United? Get in touch with us to learn about tryouts, training sessions, and how to become part of our black and white family."
           inputs={[
             {
               name: "name",
