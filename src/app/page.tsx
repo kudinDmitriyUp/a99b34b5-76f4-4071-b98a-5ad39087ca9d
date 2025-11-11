@@ -247,7 +247,7 @@ export default function Home() {
               id: "4",
               name: "Coach Michael Smith",
               role: "Head Coach",
-              description: "Former professional player with 15 years coaching experience. Specialized in youth development and tactical analysis with BVB philosophy.",
+              description: "Former professional player with 15 years coaching experience, UEFA licensed coach, developed 25+ players who earned college scholarships",
               imageSrc: "https://pixabay.com/get/g73a2a6ceb9265ab469e78a28b0a320fcf49f805ac3bec34e7438c4751fec6b8df91b594ee6753db1016b00c24e7b66b25446af6a19c755eb3387c0a32ec09943_1280.jpg",
               socialLinks: [
                 {
