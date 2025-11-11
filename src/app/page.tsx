@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -10,7 +10,7 @@ import TeamCardTwo from '@/components/sections/team/TeamCardTwo';
 import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCardTwo';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterLogoEmphasis from '@/components/sections/footer/FooterLogoEmphasis';
-import { Award, Trophy, Target, Zap, Brain, Activity, Shield, Users, Calendar, Quote } from "lucide-react";
+import { Award, Trophy, Target, Zap, Brain, Activity, Shield, Users, Calendar, Quote, Instagram, Twitter, Globe, Linkedin, Mail } from "lucide-react";
 
 export default function Home() {
   return (
@@ -196,11 +196,11 @@ export default function Home() {
               imageSrc: "https://pixabay.com/get/gdf5d6416b70dbb171817c6d928286cd8528c8d042e486462c2e7ea183ae4898b9b5b3b9e18cde5832a4e36b7cbd0a94f85591d96dab40f25ddbbf1dd38beaf70_1280.jpg",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/marcus"
                 },
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/marcus"
                 }
               ]
@@ -213,7 +213,7 @@ export default function Home() {
               imageSrc: "https://pixabay.com/get/g9b166763a10e0d020aa447236284adb2b4049cb8b81ffed2c22ef3402ce790aee28241e17e949df8ae689e6581a5975c593d10506260f6847d4185050c766b89_1280.jpg",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/david"
                 }
               ]
@@ -226,11 +226,11 @@ export default function Home() {
               imageSrc: "https://pixabay.com/get/g7af9b02d43b195790e4e67d4b1ad3a8c29e6ecd86c78411faad2ce0da780f75f4216d0b7e64f71f0e26c5610ca53b1b8a2279b3308adddcd7258399bca5557d1_1280.jpg",
               socialLinks: [
                 {
-                  icon: "Twitter",
+                  icon: Twitter,
                   url: "https://twitter.com/alex"
                 },
                 {
-                  icon: "Globe",
+                  icon: Globe,
                   url: "https://alexthompson.com"
                 }
               ]
@@ -243,11 +243,11 @@ export default function Home() {
               imageSrc: "https://pixabay.com/get/g73a2a6ceb9265ab469e78a28b0a320fcf49f805ac3bec34e7438c4751fec6b8df91b594ee6753db1016b00c24e7b66b25446af6a19c755eb3387c0a32ec09943_1280.jpg",
               socialLinks: [
                 {
-                  icon: "Linkedin",
+                  icon: Linkedin,
                   url: "https://linkedin.com/in/coachsmith"
                 },
                 {
-                  icon: "Mail",
+                  icon: Mail,
                   url: "mailto:coach@fcunited.com"
                 }
               ]
